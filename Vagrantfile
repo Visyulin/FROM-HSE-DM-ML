@@ -94,6 +94,6 @@ Vagrant.configure(2) do |config|
   end
   
   config.vm.provision :shell, inline: $script
-  config.vm.synced_folder ".", "/home/vagrant/beeline_ML_course"
+  config.vm.synced_folder ".", "/home/vagrant/ML_DM_HSE"
 
 end
